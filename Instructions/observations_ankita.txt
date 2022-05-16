@@ -1,0 +1,3 @@
+I initially thought that logistical regression will perform better on the testing data, because it doesn't overfit the training data as compared to a random forest classifier. 
+
+However, random forest classifier worked better initially, probably because the data wasn't scaled. Logistical regression is sensitive if the data is not scaled. Once the I scaled the data, the logistical regression performed better on the testing data. This was the best model which matched my expectations.
